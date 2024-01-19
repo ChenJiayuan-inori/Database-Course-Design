@@ -1,0 +1,100 @@
+  .title {
+    font-size: 70px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 0 0 10px #ff9dff80;
+  }
+
+  @keyframes background {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .mytest {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../public/img/login_bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    transition: .3s;
+    animation: background 4s;
+  }
+
+  @keyframes shell {
+    0% {
+      transform: translate(0, 20%);
+    }
+
+    100% {}
+  }
+
+  .shell {
+    position: relative;
+    width: 450px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff49;
+    border-radius: 50px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5) inset;
+    transform: translateY(-20px);
+    transition: .3s;
+    animation: shell 2s;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    border: 5px solid transparent;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+    padding: 5px 20px 0 20px;
+    transition: 0.3s;
+    font-size: 20px;
+    outline: none;
+  }
+
+  input[type="submit"] {
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 100px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+
+  input::placeholder {
+    color: #92a7e8;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #Password {
+    border: none;
+    background-color: #ffffff00;
+    color: #7597ff;
+    font-size: 18px;
+  }

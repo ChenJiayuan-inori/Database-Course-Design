@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/words
+    username: root
+    password: chen.3010
+  servlet:
+    multipart:
+      #per file-size limitation
+      max-file-size: 10MB
+      #per requestion's file-size limitation
+      max-request-size: 100MB
+
+
+mybatis:
+  configuration:
+    #design mybatis' log, output it on terminal
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #open the TuoFeng naming controller
+    map-underscore-to-camel-case: true
+
+jwt:
+  signKey: kevinchen
+  expire: 3600000
+
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+
+server:
+  port: 8088

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9f45c6a-0644-4e76-b4c7-2f892fd3516b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../developer/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\developer\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ZLpDp5kgsfaXd706xJsYQixEVr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Springboot_Vue/webExample",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "4c1d40aa40b615d69fdcc1868f0b68d2",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "oracle"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Springboot_Vue\words-management\src\main\java\com\kevinchen\wordsmanagement\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Springboot_Vue\words-management\src\main\resources\com.kevinchen.wordsmanagement.mapper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="WordsManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="words-management" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kevinchen.wordsmanagement.WordsManagementApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kevinchen.wordsmanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WordsManagementApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9f45c6a-0644-4e76-b4c7-2f892fd3516b" name="Changes" comment="" />
+      <created>1702211102154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702211102154</updated>
+      <workItem from="1702211103172" duration="4023000" />
+      <workItem from="1702221395272" duration="2961000" />
+      <workItem from="1702281826259" duration="11843000" />
+      <workItem from="1702369859314" duration="9895000" />
+      <workItem from="1702448211889" duration="33071000" />
+      <workItem from="1702708766836" duration="14002000" />
+      <workItem from="1702870349704" duration="1130000" />
+      <workItem from="1702876414968" duration="4165000" />
+      <workItem from="1702890819232" duration="1793000" />
+      <workItem from="1703136608091" duration="6268000" />
+      <workItem from="1703323724062" duration="28151000" />
+      <workItem from="1703416675879" duration="16604000" />
+      <workItem from="1703576663484" duration="4405000" />
+      <workItem from="1703584981526" duration="8444000" />
+      <workItem from="1704704488131" duration="2064000" />
+      <workItem from="1705683913891" duration="150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,101 @@
+.details-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail {
+    padding: 20px 20px;
+    position: absolute;
+    width: 50vw;
+    height: 60vh;
+    border-radius: 20px;
+    background-color: #cdbcbced;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5) inset;
+    overflow: hidden;
+}
+
+.detail-head {
+    width: 48.5vw;
+    height: 7vh;
+    padding: 20px 20px 20px 30px;
+    display: flex;
+    border-bottom-style: solid ;
+    border-width: 1px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-head :first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detail-head :first-child > h1{
+    margin-right: 30px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+
+.detail-head > #queriesTimes {
+    position: absolute;
+    transform: translateX(40vw);
+}
+
+
+
+.detail-body {
+    width: 100%;
+    height: 43vh;
+    padding:10px;
+    border-top: 1px;
+    overflow: overlay;
+}
+
+.detail-body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+
+.row {
+    padding: 50px;
+}
+
+.column {
+    padding: 25px 20px 0 0;
+    text-align: center;
+}
+
+.detail-column {
+    width: 100%;
+    word-wrap:break-word;
+    word-break:break-all;
+    padding: 25px 0 0 0;
+    text-align: left;
+}
+
+
+.detail-foot {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeBtn {
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(145deg, rgba(145, 59, 162, 0.597), rgba(248, 155, 170, 0.603), rgba(226, 226, 108, 0.592));
+}
